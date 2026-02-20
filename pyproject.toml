@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "asyncio-data-pipeline"
+version = "0.1.0"
+description = "A library that allows developers to create asynchronous data pipelines."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+dependencies = [
+    "click",
+    "pytest",
+    "pytest-asyncio",
+]
